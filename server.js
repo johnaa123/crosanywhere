@@ -24,7 +24,7 @@ cors_proxy.createServer({
   originBlacklist: originBlacklist,
   //originWhitelist: originWhitelist,
 
-    originWhitelist: [], // Allow all origins
+    originWhitelist: [*], // Allow all origins
     
     
   requireHeader: ['origin', 'x-requested-with'],
